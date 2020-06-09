@@ -11,7 +11,7 @@ pipeline {
       stage('Build') {
          steps {
     
-            git 'https://github.com/sidvijay18/tomcat_pipeline.git'
+            git 'https://github.com/abhay4291/maven-project.git'
 
              bat "mvn package"
          }
